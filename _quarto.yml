@@ -2,9 +2,18 @@ project:
   type: website
 
 website:
-  title: "Bite-sized_workshops"
+  title: "Bite-sized Library Workshops"
   navbar:
     left:
+      - text: "R Series"
+        menu: 
+          - text: "Episode 1"
+            href: Episode1.html
+      - text: "Now You See It!"
+        href: introTableau.html
+      - text: "Introduction to QGIS"
+        href: introQGIS.html
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
